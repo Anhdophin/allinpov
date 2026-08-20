@@ -1,0 +1,10 @@
+title: ALL IN POV
+description: Creative Media, Digital Showroom & Business Presence
+url: "https://allinpov.com"
+
+permalink: /blog/:title/
+
+markdown: kramdown
+
+exclude:
+  - README.md

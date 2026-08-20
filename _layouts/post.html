@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>{{ page.title }} | ALL IN POV</title>
+
+  <meta name="description"
+        content="{{ page.description }}">
+
+  <link rel="stylesheet"
+        href="/assets/css/style.css">
+</head>
+
+<body>
+
+<header>
+  <a href="/">ALL IN POV</a>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/services/">Services</a>
+    <a href="/portfolio/">Portfolio</a>
+    <a href="/blog/">Insights</a>
+  </nav>
+</header>
+
+<main>
+
+  <article>
+
+    <h1>{{ page.title }}</h1>
+
+    <p>{{ page.date | date: "%d/%m/%Y" }}</p>
+
+    {{ content }}
+
+  </article>
+
+</main>
+
+<footer>
+  ALL IN POV
+</footer>
+
+</body>
+</html>

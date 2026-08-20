@@ -1,0 +1,39 @@
+---
+layout: null
+---
+
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Insights | ALL IN POV</title>
+
+</head>
+
+<body>
+
+<h1>Insights</h1>
+
+{% for post in site.posts %}
+
+<article>
+
+<h2>
+<a href="{{ post.url }}">
+{{ post.title }}
+</a>
+</h2>
+
+<p>
+{{ post.description }}
+</p>
+
+</article>
+
+{% endfor %}
+
+</body>
+</html>
