@@ -1,0 +1,15 @@
+@font-face {
+   font-family: 'Roboto-BoldItalic';
+   font-display: swap;
+   src: url('Roboto-BoldItalic/font.ttf');
+}
+@font-face {
+   font-family: 'Roboto-Italic';
+   font-display: swap;
+   src: url('Roboto-Italic/font.ttf');
+}
+@font-face {
+   font-family: 'Roboto-Bold';
+   font-display: swap;
+   src: url('Roboto-Bold/font.ttf');
+}
